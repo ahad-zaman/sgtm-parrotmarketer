@@ -1,1 +1,4 @@
-FROM us-docker.pkg.dev/cloud-tagging-10302018/gtm-cloud-image/gtm-cloud-image:stable
+FROM gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable
+
+ENV PORT=8080
+EXPOSE 8080
